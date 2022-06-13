@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="Приезжай к нам чтобы помыть свой автомобиль"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+            integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="./styles/wash.css" />
+        <title>Детейлинг мойка | Sparkle Studio</title>
+    </head>
+    <body>
+        <!-- HEADER -->
+        <header class="header">
+            <div class="container">
+                <div class="desktop-wrapper hidden">
+                    <nav class="main-navigation">
+                        <a class="header-logo" href="./index.html">
+                            <img
+                                class="header-logo-img"
+                                src="./images/logo.png"
+                                alt="company logo"
+                                width="170"
+                            />
+                        </a>
+
+                        <ul class="header-list">
+                            <li class="header-item">
+                                <a
+                                    href="./detailing.html"
+                                    class="header-item-link"
+                                >
+                                    химчистка
+                                </a>
+                            </li>
+                            <li class="header-item">
+                                <a href="./film.html" class="header-item-link">
+                                    бронепленка
+                                </a>
+                            </li>
+                            <li class="header-item">
+                                <a
+                                    href="./defence.html"
+                                    class="header-item-link"
+                                >
+                                    покрытия
+                                </a>
+                            </li>
+                            <li class="header-item">
+                                <a
+                                    href="./wash.html"
+                                    class="header-item-link current"
+                                >
+                                    мойка
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <ul class="social-wrapper">
+                        <li class="header-socials-item">
+                            <a
+                                target="_blank"
+                                href="https://m.facebook.com/Sparkle-Studio-%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2-105019628771412/"
+                                class="header-socials-link"
+                            >
+                                <svg
+                                    class="header-socials-icon"
+                                    width="25px"
+                                    height="25px"
+                                >
+                                    <use
+                                        href="./images/sprite.svg#icon-facebook"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="header-socials-item">
+                            <a
+                                target="_blank"
+                                href="https://www.instagram.com/sparkle_studio_kh/"
+                                class="header-socials-link"
+                            >
+                                <svg
+                                    class="header-socials-icon"
+                                    width="25px"
+                                    height="25px"
+                                >
+                                    <use
+                                        href="./images/sprite.svg#icon-instagram"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="header-socials-item">
+                            <a
+                                target="_blank"
+                                href="https://telegram.me/Sparkle_Studio_Kharkov"
+                                class="header-socials-link"
+                            >
+                                <svg
+                                    class="header-socials-icon"
+                                    width="25px"
+                                    height="25px"
+                                >
+                                    <use
+                                        href="./images/sprite.svg#icon-telegram"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="mob-wrapper">
+                    <img
+                        class="mob-wrapper-logo"
+                        src="./images/logo.png"
+                        alt="company logo"
+                        width="170"
+                    />
+                    <button id="burger-open" class="open-btn">
+                        <svg
+                            class="header-burger-icon-open"
+                            width="26"
+                            height="26"
+                        >
+                            <use href="images/sprite.svg#icon-menu"></use>
+                        </svg>
+                    </button>
+                </div>
+                <div class="mob-menu is-hidden" id="data-menu">
+                    <button id="burger-close" class="close-btn">
+                        <svg
+                            class="header-burger-icon-close"
+                            width="26"
+                            height="26"
+                        >
+                            <use href="images/sprite.svg#icon-cross"></use>
+                        </svg>
+                    </button>
+
+                    <nav>
+                        <ul class="header-list">
+                            <li class="header-item">
+                                <a href="./index.html" class="header-item-link">
+                                    главная
+                                </a>
+                            </li>
+                            <li class="header-item">
+                                <a
+                                    href="./detailing.html"
+                                    class="header-item-link"
+                                >
+                                    химчистка
+                                </a>
+                            </li>
+                            <li class="header-item">
+                                <a href="./film.html" class="header-item-link">
+                                    бронепленка
+                                </a>
+                            </li>
+                            <li class="header-item">
+                                <a
+                                    href="./defence.html"
+                                    class="header-item-link"
+                                >
+                                    покрытия
+                                </a>
+                            </li>
+                            <li class="header-item">
+                                <a
+                                    href="./wash.html"
+                                    class="header-item-link current"
+                                >
+                                    мойка
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <ul class="social-wrapper">
+                        <li class="header-socials-item">
+                            <a
+                                target="_blank"
+                                href="https://m.facebook.com/Sparkle-Studio-%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2-105019628771412/"
+                                class="header-socials-link"
+                            >
+                                <svg
+                                    class="header-socials-icon"
+                                    width="25px"
+                                    height="25px"
+                                >
+                                    <use
+                                        href="./images/sprite.svg#icon-facebook"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="header-socials-item">
+                            <a
+                                target="_blank"
+                                href="https://www.instagram.com/sparkle_studio_kh/"
+                                class="header-socials-link"
+                            >
+                                <svg
+                                    class="header-socials-icon"
+                                    width="25px"
+                                    height="25px"
+                                >
+                                    <use
+                                        href="./images/sprite.svg#icon-instagram"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="header-socials-item">
+                            <a
+                                target="_blank"
+                                href="https://telegram.me/Sparkle_Studio_Kharkov"
+                                class="header-socials-link"
+                            >
+                                <svg
+                                    class="header-socials-icon"
+                                    width="25px"
+                                    height="25px"
+                                >
+                                    <use
+                                        href="./images/sprite.svg#icon-telegram"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!-- MAIN -->
+        <main>
+            <!-- HERO -->
+            <section class="hero">
+                <div class="container">
+                    <div class="hero-wrapper">
+                        <h2 class="hero-title">Детейлинг мойка</h2>
+                        <p class="hero-text">
+                            Привести авто в идеальный порядок позволяет
+                            детейлинг мойка автомобиля
+                        </p>
+                        <button class="hero-button" id="hero-btn">
+                            <a href="#form" class="hero-button-link"></a>
+                            ОНЛАЙН ЗАПИСЬ
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- STEPS -->
+            <section class="steps">
+                <div class="container">
+                    <h2 class="steps-title">Этапы</h2>
+                    <ul class="steps-list">
+                        <li class="steps-item">
+                            <svg
+                                class="steps-item-icon"
+                                width="25px"
+                                height="25px"
+                            >
+                                <use
+                                    href="./images/sprite.svg#icon-arrow-right"
+                                ></use>
+                            </svg>
+                            <p class="steps-item-text">трехфазная мойка</p>
+                        </li>
+                        <li class="steps-item">
+                            <svg
+                                class="steps-item-icon"
+                                width="25px"
+                                height="25px"
+                            >
+                                <use
+                                    href="./images/sprite.svg#icon-arrow-right"
+                                ></use>
+                            </svg>
+                            <p class="steps-item-text">продувка воздухом</p>
+                        </li>
+                        <li class="steps-item">
+                            <svg
+                                class="steps-item-icon"
+                                width="25px"
+                                height="25px"
+                            >
+                                <use
+                                    href="./images/sprite.svg#icon-arrow-right"
+                                ></use>
+                            </svg>
+                            <p class="steps-item-text">
+                                сушка микрофибровыми полотенцами
+                            </p>
+                        </li>
+                        <li class="steps-item">
+                            <svg
+                                class="steps-item-icon"
+                                width="25px"
+                                height="25px"
+                            >
+                                <use
+                                    href="./images/sprite.svg#icon-arrow-right"
+                                ></use>
+                            </svg>
+                            <p class="steps-item-text">чернение резины</p>
+                        </li>
+                    </ul>
+                    <p class="steps-text">
+                        В ходе работ используются шампуни с нано добавками,
+                        особые губки, специальные кисти, салфетки из микрофибры
+                        и средства чернения резины.
+                    </p>
+                </div>
+            </section>
+
+            <!-- DESCRIPTION -->
+
+            <section class="description">
+                <div class="container">
+                    <h2 class="description-title">
+                        Основные этапы детейлинг мойки
+                    </h2>
+
+                    <p class="description-text">
+                        Детейлинг – высокотехнологичный процесс, который не
+                        закажешь на обычной автомойке. Для работы необходимо
+                        специализированное оборудование и автохимия,
+                        подготовленный персонал, знакомый с технологией
+                        нанесения профессиональных составов.
+                        <br />
+                        <br />
+                        Осуществляется детейлинг мойка в несколько этапов:
+                    </p>
+                    <ul class="decription-list">
+                        <li class="description-item">
+                            <svg
+                                class="description-item-icon"
+                                width="25"
+                                height="25"
+                            >
+                                <use href="./images/sprite.svg#icon-cogs"></use>
+                            </svg>
+                            <p class="description-item-text">
+                                трехфазная мойка с использованием
+                                профессиональной химии, особые губки,
+                                специальные кисти
+                            </p>
+                        </li>
+                        <li class="description-item">
+                            <svg
+                                class="description-item-icon"
+                                width="25"
+                                height="25"
+                            >
+                                <use href="./images/sprite.svg#icon-cogs"></use>
+                            </svg>
+                            <p class="description-item-text">
+                                продувка воздухом с использованием
+                            </p>
+                        </li>
+                        <li class="description-item">
+                            <svg
+                                class="description-item-icon"
+                                width="25"
+                                height="25"
+                            >
+                                <use href="./images/sprite.svg#icon-cogs"></use>
+                            </svg>
+                            <p class="description-item-text">
+                                сушка микрофиброй
+                            </p>
+                        </li>
+                        <li class="description-item">
+                            <svg
+                                class="description-item-icon"
+                                width="25"
+                                height="25"
+                            >
+                                <use href="./images/sprite.svg#icon-cogs"></use>
+                            </svg>
+                            <p class="description-item-text">чернение резины</p>
+                        </li>
+                        <li class="description-item">
+                            <svg
+                                class="description-item-icon"
+                                width="25"
+                                height="25"
+                            >
+                                <use href="./images/sprite.svg#icon-cogs"></use>
+                            </svg>
+                            <p class="description-item-text">уборка в салоне</p>
+                        </li>
+                    </ul>
+                    <p class="description-text-after">
+                        Начинается все с трехфазной мойки, первым этапом которой
+                        является традиционная бесконтактная мойка. После ее
+                        завершения мастер осматривает кузов на наличие следов
+                        въевшейся грязи, особо загрязненных участков, въевшихся
+                        металлических стружек. Они удаляются на втором этапе
+                        работ – во время ручной мойки, в ходе которой
+                        используются средства автохимии, специальные
+                        крупноячеистые губки, удаляющие статическую грязь не
+                        царапая кузова. Завершающим этапом трехфазной мойки
+                        является нанесение консервирующего воска.
+                        <br />
+                        <br />
+                        Для сушки кузова используется микрофибра. Она не
+                        оставляет на поверхности следов и ворсинок, а благодаря
+                        повышенной мягкости не царапает ЛКП. Для чернения резины
+                        так же применяются средства, глубоко проникающие в поры
+                        покрышки и очищающие ее от въевшейся грязи. При этом
+                        резине придаются дополнительные гидрофобные свойства.
+                    </p>
+                </div>
+            </section>
+
+            <!-- CONTACT FORM -->
+            <section class="contacts">
+                <div class="container">
+                    <a id="form"></a>
+                    <h2 class="contact-title">
+                        <span class="contact-title-part">Записывайтесь</span>
+                        <br />
+                        на бесплатную консультацию
+                    </h2>
+                    <form class="contact-form">
+                        <input
+                            required
+                            class="contact-form-input"
+                            type="text"
+                            placeholder="Ваше имя"
+                        />
+                        <input
+                            required
+                            class="contact-form-input"
+                            type="tel"
+                            placeholder="Ваш номер телефона"
+                        />
+                        <button class="contact-form-button">Записаться</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="container">
+                <a id="contacts"></a>
+                <img
+                    class="footer-logo-img"
+                    src="./images/logo.png"
+                    alt="company logo"
+                    width="220"
+                />
+                <ul class="footer-list">
+                    <li class="footer-item">
+                        <a
+                            class="footer-link"
+                            href="https://goo.gl/maps/oNxNqbsZK8ErQ8Xg7"
+                        >
+                            <svg
+                                class="footer-item-icon"
+                                width="25"
+                                height="25"
+                            >
+                                <use
+                                    href="./images/sprite.svg#icon-location"
+                                ></use>
+                            </svg>
+                            ул. Марьинская, 20
+                        </a>
+                    </li>
+                    <li class="footer-item">
+                        <svg class="footer-item-icon" width="25" height="25">
+                            <use href="./images/sprite.svg#icon-clock"></use>
+                        </svg>
+                        <p class="footer-text">Пн-Сб: 9.00 – 20.00</p>
+                    </li>
+                    <li class="footer-item">
+                        <a class="footer-link" href="tel:+380979038982">
+                            <svg
+                                class="footer-item-icon"
+                                width="25"
+                                height="25"
+                            >
+                                <use
+                                    href="./images/sprite.svg#icon-phone"
+                                ></use>
+                            </svg>
+                            +38(097)903-89-82
+                        </a>
+                    </li>
+                    <li class="footer-item">
+                        <a
+                            class="footer-link"
+                            href="mailto:sparkle.studi@gmail.com"
+                        >
+                            <svg
+                                class="footer-item-icon"
+                                width="25"
+                                height="25"
+                            >
+                                <use href="./images/sprite.svg#icon-mail"></use>
+                            </svg>
+                            sparkle.studi@gmail.com
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+        <script src="./js/mob-menu.js" type="module"></script>
+    </body>
+</html>
