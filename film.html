@@ -621,7 +621,7 @@
                                     />
                             </picture>
                             <div class="complex-item-description">
-                                <h3 class="complex-item-description-title">
+                                <h3 class="complex-item-description-title" >
                                     Комплекс Стандарт
                                 </h3>
                                 <p class="complex-item-description-text">
@@ -1151,20 +1151,22 @@
                         <br />
                         на бесплатную консультацию
                     </h2>
-                    <form class="contact-form">
+                     <form class="contact-form js-form" id="antigraviynaia-plenka">
                         <input
                             required
-                            class="contact-form-input"
+                            name="name"
+                            class="contact-form-input js-name"
                             type="text"
                             placeholder="Ваше имя"
-                            />
+                        />
                         <input
                             required
-                            class="contact-form-input"
+                            name="phone"
+                            class="contact-form-input js-tel"
                             type="tel"
                             placeholder="Ваш номер телефона"
-                            />
-                        <button class="contact-form-button">Записаться</button>
+                        />
+                        <button type="submit" class="contact-form-button js-submit">Записаться</button>
                     </form>
                 </div>
             </section>
@@ -1360,5 +1362,6 @@
             </div>
         </footer>
         <script src="./js/mob-menu.js" type="module"></script>
+        <script src="./js/sender.js" type="module"></script>
     </body>
 </html>
