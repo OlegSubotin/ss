@@ -21,6 +21,10 @@ h6 {
     margin-bottom: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 ul {
     list-style: none;
     margin-top: 0;
@@ -1487,6 +1491,7 @@ a {
     }
 
     .hero-text {
+        text-align: center;
         font-style: normal;
         font-weight: 400;
         font-size: 26px;
