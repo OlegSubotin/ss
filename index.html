@@ -21,6 +21,7 @@
             crossorigin="anonymous"
             referrerpolicy="no-referrer"
         />
+
         <link rel="stylesheet" href="./styles/index.css" />
         <link
             rel="icon shortcut"
@@ -832,6 +833,13 @@
                         />
                         <button type="submit" class="contact-form-button js-submit">Записаться</button>
                     </form>
+                    <div id="popup" class="overlay is-hidden">
+	                    <div class="popup">
+		                    <p class="content">
+		                    	Спасибо, мы скоро с вами свяжемся
+		                    </p>
+	                    </div>
+                    </div>
                 </div>
             </section>
         </main>
@@ -1033,6 +1041,7 @@
                 </div>
             </div>
         </footer>
+
         <script src="./js/mob-menu.js" type="module"></script>
         <script src="./js/sender.js" type="module"></script>
     </body>

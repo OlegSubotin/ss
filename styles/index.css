@@ -51,6 +51,37 @@ a {
     display: none;
 }
 
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.3);
+  transition: opacity 500ms;
+}
+
+
+.popup {
+  margin: 10px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  max-width: fit-content;
+  position: relative;
+  transition: all 1s ease-in-out;
+}
+
+.popup .content {
+    text-align: center;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        color: var(--icon-color);
+}
+
 @media screen and (max-width: 767px) {
     .container {
         max-width: 425px;
