@@ -183,8 +183,8 @@ a {
     .hero {
         height: auto;
         background-image: linear-gradient(
-                rgba(4, 4, 4, 0.3),
-                rgba(4, 4, 4, 0.3)
+                rgba(4, 4, 4, 0.6),
+                rgba(4, 4, 4, 0.6)
             ),
             url(../images/wash-blank/hero/bg.jpg);
         background-repeat: no-repeat;
@@ -649,8 +649,8 @@ a {
     .hero {
         height: auto;
         background-image: linear-gradient(
-                rgba(4, 4, 4, 0.3),
-                rgba(4, 4, 4, 0.3)
+                rgba(4, 4, 4, 0.6),
+                rgba(4, 4, 4, 0.6)
             ),
             url(../images/wash-blank/hero/bg.jpg);
         background-repeat: no-repeat;
@@ -1069,8 +1069,8 @@ a {
     .hero {
         height: auto;
         background-image: linear-gradient(
-                rgba(4, 4, 4, 0.3),
-                rgba(4, 4, 4, 0.3)
+                rgba(4, 4, 4, 0.6),
+                rgba(4, 4, 4, 0.6)
             ),
             url(../images/wash-blank/hero/bg.jpg);
         background-repeat: no-repeat;
