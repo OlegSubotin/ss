@@ -220,7 +220,7 @@ a {
         background-image: linear-gradient(
                 rgba(4, 4, 4, 0.6),
                 rgba(4, 4, 4, 0.6)
-            ), url(../images/home-blank/hero/bg-mob.jpg);
+            ), url(../images/detailing-blank/hero/bg-mob.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -766,7 +766,7 @@ a {
         background-image: linear-gradient(
                 rgba(4, 4, 4, 0.6),
                 rgba(4, 4, 4, 0.6)
-            ),  url(../images/home-blank/hero/bg-tablet.jpg);
+            ),  url(../images/detailing-blank/hero/bg-tablet.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
