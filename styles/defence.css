@@ -136,7 +136,7 @@ a {
                 rgba(4, 4, 4, 0.4),
                 rgba(4, 4, 4, 0.4)
             ),
-            url(../images/home-blank/header/bg.jpg);
+           url(../images/home-blank/header/bg-mob.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -220,7 +220,7 @@ a {
                 rgba(4, 4, 4, 0.3),
                 rgba(4, 4, 4, 0.3)
             ),
-            url(../images/defence-blank/hero/bg.jpg);
+            url(../images/home-blank/hero/bg-mob.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -710,7 +710,7 @@ a {
                 rgba(4, 4, 4, 0.4),
                 rgba(4, 4, 4, 0.4)
             ),
-            url(../images/home-blank/header/bg.jpg);
+            url(../images/home-blank/header/bg-tablet.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -794,7 +794,7 @@ a {
                 rgba(4, 4, 4, 0.3),
                 rgba(4, 4, 4, 0.3)
             ),
-            url(../images/defence-blank/hero/bg.jpg);
+             url(../images/home-blank/hero/bg-tablet.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
