@@ -453,7 +453,7 @@ a {
 
     .contact-form-button {
         margin: 0;
-        padding: 19px 13px;
+        padding: 19px 23px;
         background: var(--icon-color);
         border-radius: 70px;
         border: none;
@@ -920,7 +920,7 @@ a {
 
     .contact-form-button {
         margin-top: 20px;
-        padding: 19px 13px;
+        padding: 19px 23px;
         background: var(--icon-color);
         border-radius: 70px;
         border: none;
@@ -1340,7 +1340,7 @@ a {
     }
 
     .contact-form-button {
-        padding: 19px 13px;
+        padding: 19px 23px;
         background-color: var(--icon-color);
         border-radius: 70px;
         border: none;
