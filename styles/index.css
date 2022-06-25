@@ -314,16 +314,9 @@ a {
         align-items: center;
     }
 
-    .service-item-title-wrapper {
-        height: 70px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-
     .service-item-title {
+        margin-top: 30px;
+        margin-bottom: 20px;
         text-align: center;
         font-style: normal;
         font-weight: 700;
@@ -356,7 +349,7 @@ a {
     }
 
     .service-item-text {
-        margin-top: 20px;
+        margin: 20px auto 0;
         display: flex;
         align-items: center;
         padding: 15px 20px;
@@ -368,6 +361,7 @@ a {
         color: var(--extra-text-color);
         background-color: var(--icon-color);
         cursor: pointer;
+        width: fit-content;
     }
 
     .service-item-text-icon {
@@ -838,16 +832,10 @@ a {
         border-radius: 25px;
     }
 
-    .service-item-title-wrapper {
-        height: 80px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
 
     .service-item-title {
+        padding-top: 30px;
+        padding-bottom: 20px;
         text-align: center;
         font-style: normal;
         font-weight: 700;
@@ -886,6 +874,7 @@ a {
         color: var(--extra-text-color);
         background-color: var(--icon-color);
         cursor: pointer;
+        width: fit-content;
     }
 
     .service-item-text-icon {
@@ -1305,38 +1294,40 @@ a {
 
     .service-list {
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
     }
 
-    .service-item {
-        max-width: 250px;
+    .service-item{
+        border: 1px solid var(--icon-color);
+        padding: 20px 10px;
+        border-radius: 30px;
     }
 
     .service-item:not(:last-child) {
-        margin-right: 20px;
+        margin-bottom: 30px;
     }
 
     .service-item-link {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .service-item-link-reverse{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
     }
 
     .service-item-image {
-        margin: 0 auto;
+        margin: 10px;
         box-shadow: rgba(0, 0, 0, 0.3) 1.95px 1.95px 2.6px;
         border-radius: 10px;
-    }
-
-    .service-item-title-wrapper {
-        height: 80px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 30px;
-        margin-bottom: 30px;
+        min-width: 350px;
     }
 
     .service-item-title {
+        margin-bottom: 20px;
         text-align: center;
         font-style: normal;
         font-weight: 700;
@@ -1375,6 +1366,7 @@ a {
         color: var(--extra-text-color);
         background-color: var(--icon-color);
         cursor: pointer;
+        width: min-content;
     }
 
     .service-item-text-icon {
