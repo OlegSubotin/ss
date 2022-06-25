@@ -215,7 +215,197 @@ a {
     }
     /* HERO */
 
-   
+    .hero {
+        height: auto;
+        background-image: linear-gradient(
+                rgba(4, 4, 4, 0.5),
+                rgba(4, 4, 4, 0.5)
+            ),
+            url(../images/toning-blank/hero/bg-mob.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .hero-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-title {
+        text-align: center;
+        padding-top: 40px;
+        margin-bottom: 40px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        color: var(--extra-title-color);
+    }
+
+    .hero-text {
+        margin-bottom: 40px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        color: var(--extra-text-color);
+    }
+
+    .hero-button {
+        margin-bottom: 40px;
+        padding: 15px 20px;
+        border-radius: 70px;
+        border: none;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        color: var(--extra-text-color);
+        background-color: var(--icon-color);
+        cursor: pointer;
+    }
+
+    .hero-button-link {
+        color: var(--extra-text-color);
+    }
+
+    /* BENEFITS */
+    .benefits {
+        height: auto;
+        background-image: linear-gradient(
+                rgba(4, 4, 4, 0.7),
+                rgba(4, 4, 4, 0.7)
+            ),
+            url(../images/toning-blank/benefits/bg.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .benefits-title {
+        padding-top: 30px;
+        text-align: center;
+        margin-bottom: 30px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 36px;
+        color: var(--extra-title-color);
+    }
+
+    .benefits-list{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 60px;
+    }
+
+    .benefits-item{
+        display: flex;
+        align-items: center;
+    }
+
+    .benefits-item:not(:last-child){
+        margin-bottom: 30px;
+    }
+
+    .benefits-item-icon{
+        fill: white;
+        margin-right: 10px;
+        min-width: 25px;
+    }
+
+    .benefits-item-text{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: var(--extra-text-color);
+    }
+
+    .benefits-text{
+        padding-bottom: 30px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: var(--extra-text-color);
+    }
+
+     /* SERVICE */
+    .service {
+        height: auto;
+        background-image: linear-gradient(
+                rgba(4, 4, 4, 0.6),
+                rgba(4, 4, 4, 0.6)
+            ),
+            url(../images/toning-blank/service/bg-mob.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        padding-bottom: 30px;
+    }
+
+    .service-title {
+        padding-top: 30px;
+        text-align: center;
+        margin-bottom: 30px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 36px;
+        color: var(--extra-title-color);
+    }
+
+    .service-list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 60px;
+    }
+
+    .service-item{
+        display: flex;
+        align-items: center;
+    }
+
+    .service-item:not(:last-child){
+        margin-bottom: 30px;
+    }
+
+    .service-item-icon{
+        fill: white;
+        margin-right: 10px;
+        min-width: 25px;
+    }
+
+    .service-item-text{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: var(--extra-text-color);
+    }
+
+    .service-text{
+        padding: 30px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: var(--extra-text-color);
+        border-radius: 30px;
+        border: 1px solid;
+    }
+
+    .service-text-accent{
+        text-decoration: underline;
+    }
+
 
     /* CONTACT FORM */
 
@@ -499,7 +689,198 @@ a {
     }
     /* HERO */
 
-   
+    .hero {
+        height: auto;
+        background-image: linear-gradient(
+                rgba(4, 4, 4, 0.6),
+                rgba(4, 4, 4, 0.6)
+            ),
+             url(../images/toning-blank/hero/bg-tablet.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .hero-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-title {
+        text-align: center;
+        padding-top: 60px;
+        margin-bottom: 60px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        color: var(--extra-title-color);
+    }
+
+    .hero-text {
+        margin-bottom: 60px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        color: var(--extra-text-color);
+    }
+
+    .hero-button {
+        margin-bottom: 60px;
+        padding: 15px 20px;
+        border-radius: 70px;
+        border: none;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        color: var(--extra-text-color);
+        background-color: var(--icon-color);
+        cursor: pointer;
+    }
+
+    .hero-button-link {
+        color: var(--extra-text-color);
+    }
+
+
+     /* BENEFITS */
+    .benefits {
+        height: auto;
+        background-image: linear-gradient(
+                rgba(4, 4, 4, 0.7),
+                rgba(4, 4, 4, 0.7)
+            ),
+            url(../images/toning-blank/benefits/bg.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .benefits-title {
+        padding-top: 30px;
+        text-align: center;
+        margin-bottom: 30px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 40px;
+        color: var(--extra-title-color);
+    }
+
+    .benefits-list{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 60px;
+    }
+
+    .benefits-item{
+        display: flex;
+        align-items: center;
+    }
+
+    .benefits-item:not(:last-child){
+        margin-bottom: 30px;
+    }
+
+    .benefits-item-icon{
+        fill: white;
+        margin-right: 20px;
+        min-width: 25px;
+    }
+
+    .benefits-item-text{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 28px;
+        color: var(--extra-text-color);
+    }
+
+    .benefits-text{
+        padding-bottom: 30px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 28px;
+        color: var(--extra-text-color);
+    }
+
+
+         /* SERVICE */
+    .service {
+        height: auto;
+        background-image: linear-gradient(
+                rgba(4, 4, 4, 0.6),
+                rgba(4, 4, 4, 0.6)
+            ),
+            url(../images/toning-blank/service/bg-mob.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        padding-bottom: 30px;
+    }
+
+    .service-title {
+        padding-top: 30px;
+        text-align: center;
+        margin-bottom: 30px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 40px;
+        color: var(--extra-title-color);
+    }
+
+    .service-list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 60px;
+    }
+
+    .service-item{
+        display: flex;
+        align-items: center;
+    }
+
+    .service-item:not(:last-child){
+        margin-bottom: 30px;
+    }
+
+    .service-item-icon{
+        fill: white;
+        margin-right: 20px;
+        min-width: 25px;
+    }
+
+    .service-item-text{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 28px;
+        color: var(--extra-text-color);
+    }
+
+    .service-text{
+        padding: 30px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 28px;
+        color: var(--extra-text-color);
+        border-radius: 30px;
+        border: 1px solid;
+    }
+
+    .service-text-accent{
+        text-decoration: underline;
+    }
 
     /* CONTACT FORM */
 
@@ -735,7 +1116,204 @@ a {
         fill: var(--icon-color);
     }
     /* HERO */
+    
+    .hero {
+        height: auto;
+        background-image: linear-gradient(
+                rgba(4, 4, 4, 0.5),
+                rgba(4, 4, 4, 0.5)
+            ),
+            url(../images/toning-blank/hero/bg.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
 
+    .hero-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-title {
+        text-align: center;
+        padding-top: 70px;
+        margin-bottom: 120px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        color: var(--extra-title-color);
+    }
+
+    .hero-text {
+        text-align: center;
+        margin-bottom: 70px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        color: var(--extra-text-color);
+    }
+
+    .hero-button {
+        margin-bottom: 70px;
+        padding: 15px 20px;
+        border-radius: 70px;
+        border: none;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        color: var(--extra-text-color);
+        background-color: var(--icon-color);
+        cursor: pointer;
+    }
+
+    .hero-button:hover,
+    .hero-button:focus {
+        background-color: var(--button-color);
+    }
+
+    .hero-button-link {
+        color: var(--extra-text-color);
+    }
+
+
+    /* BENEFITS */
+    .benefits {
+        height: auto;
+        background-image: linear-gradient(
+                rgba(4, 4, 4, 0.7),
+                rgba(4, 4, 4, 0.7)
+            ),
+            url(../images/toning-blank/benefits/bg.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .benefits-title {
+        padding-top: 30px;
+        text-align: center;
+        margin-bottom: 30px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 36px;
+        color: var(--extra-title-color);
+    }
+
+    .benefits-list{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 60px;
+    }
+
+    .benefits-item{
+        display: flex;
+        align-items: center;
+    }
+
+    .benefits-item:not(:last-child){
+        margin-bottom: 30px;
+    }
+
+    .benefits-item-icon{
+        fill: white;
+        margin-right: 25px;
+        min-width: 25px;
+    }
+
+    .benefits-item-text{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 28px;
+        color: var(--extra-text-color);
+    }
+
+    .benefits-text{
+        padding-bottom: 30px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 28px;
+        color: var(--extra-text-color);
+    }
+
+
+    /* SERVICE */
+    .service {
+        height: auto;
+        background-image: linear-gradient(
+                rgba(4, 4, 4, 0.6),
+                rgba(4, 4, 4, 0.6)
+            ),
+            url(../images/toning-blank/service/bg.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        padding-bottom: 30px;
+    }
+
+    .service-title {
+        padding-top: 30px;
+        text-align: center;
+        margin-bottom: 30px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 36px;
+        color: var(--extra-title-color);
+    }
+
+    .service-list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 60px;
+    }
+
+    .service-item{
+        display: flex;
+        align-items: center;
+    }
+
+    .service-item:not(:last-child){
+        margin-bottom: 30px;
+    }
+
+    .service-item-icon{
+        fill: white;
+        margin-right: 25px;
+        min-width: 25px;
+    }
+
+    .service-item-text{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 28px;
+        color: var(--extra-text-color);
+    }
+
+    .service-text{
+        padding: 30px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 28px;
+        color: var(--extra-text-color);
+        border-radius: 30px;
+        border: 1px solid;
+    }
+
+    .service-text-accent{
+        text-decoration: underline;
+    }
    
 
     /* CONTACT FORM */
