@@ -272,18 +272,6 @@ a {
     }
 
     /* BENEFITS */
-    .benefits {
-        height: auto;
-        background-image: linear-gradient(
-                rgba(4, 4, 4, 0.7),
-                rgba(4, 4, 4, 0.7)
-            ),
-            url(../images/toning-blank/benefits/bg.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
 
     .benefits-title {
         padding-top: 30px;
@@ -293,7 +281,7 @@ a {
         font-weight: 700;
         font-size: 32px;
         line-height: 36px;
-        color: var(--extra-title-color);
+        color: var(--main-title-color);
     }
 
     .benefits-list{
@@ -312,7 +300,7 @@ a {
     }
 
     .benefits-item-icon{
-        fill: white;
+        fill: var(--icon-color);
         margin-right: 10px;
         min-width: 25px;
     }
@@ -322,7 +310,7 @@ a {
         font-weight: 400;
         font-size: 18px;
         line-height: 28px;
-        color: var(--extra-text-color);
+        color: var(--main-text-color);
     }
 
     .benefits-text{
@@ -332,21 +320,19 @@ a {
         font-weight: 400;
         font-size: 18px;
         line-height: 28px;
-        color: var(--extra-text-color);
+        color: var(--main-text-color);
+    }
+
+    /* PHOTO */
+    .photo-image{
+        border-radius: 15px;
+        margin: 0 auto;
+        max-width: 100%;
     }
 
      /* SERVICE */
     .service {
         height: auto;
-        background-image: linear-gradient(
-                rgba(4, 4, 4, 0.6),
-                rgba(4, 4, 4, 0.6)
-            ),
-            url(../images/toning-blank/service/bg-mob.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         padding-bottom: 30px;
     }
 
@@ -358,7 +344,7 @@ a {
         font-weight: 700;
         font-size: 32px;
         line-height: 36px;
-        color: var(--extra-title-color);
+        color: var(--main-title-color);
     }
 
     .service-list{
@@ -378,7 +364,7 @@ a {
     }
 
     .service-item-icon{
-        fill: white;
+        fill: var(--icon-color);
         margin-right: 10px;
         min-width: 25px;
     }
@@ -388,7 +374,7 @@ a {
         font-weight: 400;
         font-size: 18px;
         line-height: 28px;
-        color: var(--extra-text-color);
+        color: var(--main-text-color);
     }
 
     .service-text{
@@ -397,9 +383,9 @@ a {
         font-weight: 400;
         font-size: 18px;
         line-height: 28px;
-        color: var(--extra-text-color);
+        color: var(--main-text-color);
         border-radius: 30px;
-        border: 1px solid;
+        border: 1px solid var(--icon-color);
     }
 
     .service-text-accent{
@@ -747,18 +733,6 @@ a {
 
 
      /* BENEFITS */
-    .benefits {
-        height: auto;
-        background-image: linear-gradient(
-                rgba(4, 4, 4, 0.7),
-                rgba(4, 4, 4, 0.7)
-            ),
-            url(../images/toning-blank/benefits/bg.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
 
     .benefits-title {
         padding-top: 30px;
@@ -768,7 +742,7 @@ a {
         font-weight: 700;
         font-size: 36px;
         line-height: 40px;
-        color: var(--extra-title-color);
+        color: var(--main-title-color);
     }
 
     .benefits-list{
@@ -787,7 +761,7 @@ a {
     }
 
     .benefits-item-icon{
-        fill: white;
+        fill: var(--icon-color);
         margin-right: 20px;
         min-width: 25px;
     }
@@ -797,7 +771,7 @@ a {
         font-weight: 400;
         font-size: 22px;
         line-height: 28px;
-        color: var(--extra-text-color);
+        color: var(--main-text-color);
     }
 
     .benefits-text{
@@ -807,22 +781,21 @@ a {
         font-weight: 400;
         font-size: 22px;
         line-height: 28px;
-        color: var(--extra-text-color);
+        color: var(--main-text-color);
+    }
+
+    /* PHOTO */
+
+    .photo-image{
+        max-width: 100%;
+        border-radius: 15px;
+        margin: 0 auto;
     }
 
 
          /* SERVICE */
     .service {
         height: auto;
-        background-image: linear-gradient(
-                rgba(4, 4, 4, 0.6),
-                rgba(4, 4, 4, 0.6)
-            ),
-            url(../images/toning-blank/service/bg-mob.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         padding-bottom: 30px;
     }
 
@@ -834,7 +807,7 @@ a {
         font-weight: 700;
         font-size: 36px;
         line-height: 40px;
-        color: var(--extra-title-color);
+        color: var(--main-title-color);
     }
 
     .service-list{
@@ -854,7 +827,7 @@ a {
     }
 
     .service-item-icon{
-        fill: white;
+        fill: var(--icon-color);
         margin-right: 20px;
         min-width: 25px;
     }
@@ -864,7 +837,7 @@ a {
         font-weight: 400;
         font-size: 22px;
         line-height: 28px;
-        color: var(--extra-text-color);
+        color: var(--main-text-color);
     }
 
     .service-text{
@@ -873,9 +846,9 @@ a {
         font-weight: 400;
         font-size: 22px;
         line-height: 28px;
-        color: var(--extra-text-color);
+        color: var(--main-text-color);
         border-radius: 30px;
-        border: 1px solid;
+        border: 1px solid var(--icon-color);
     }
 
     .service-text-accent{
@@ -1018,17 +991,14 @@ a {
         display: flex;
         flex-direction: row;
         align-items: center;
-    }
-
-    .footer-nav-item:not(:last-child) {
-        margin-right: 15px;
+        justify-content: space-around;
     }
 
     .footer-nav-item-link {
-        padding: 10px;
+        padding: 10px 0;
         font-style: normal;
         font-weight: 400;
-        font-size: 24px;
+        font-size: 20px;
         line-height: 26px;
         color: var(--main-text-color);
     }
@@ -1181,16 +1151,7 @@ a {
 
     /* BENEFITS */
     .benefits {
-        height: auto;
-        background-image: linear-gradient(
-                rgba(4, 4, 4, 0.7),
-                rgba(4, 4, 4, 0.7)
-            ),
-            url(../images/toning-blank/benefits/bg.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin-top: 30px;
     }
 
     .benefits-title {
@@ -1201,7 +1162,7 @@ a {
         font-weight: 700;
         font-size: 40px;
         line-height: 36px;
-        color: var(--extra-title-color);
+        color: var(--main-title-color);
     }
 
     .benefits-list{
@@ -1220,7 +1181,7 @@ a {
     }
 
     .benefits-item-icon{
-        fill: white;
+        fill: var(--icon-color);
         margin-right: 25px;
         min-width: 25px;
     }
@@ -1230,7 +1191,7 @@ a {
         font-weight: 400;
         font-size: 22px;
         line-height: 28px;
-        color: var(--extra-text-color);
+        color: var(--main-text-color);
     }
 
     .benefits-text{
@@ -1240,22 +1201,24 @@ a {
         font-weight: 400;
         font-size: 22px;
         line-height: 28px;
-        color: var(--extra-text-color);
+        color: var(--main-text-color);
+    }
+
+    /* PHOTO */
+    .photo{
+        padding-top: 30px;
+    }
+
+    .photo-image{
+        max-width: fit-content;
+        border-radius: 30px;
+        margin: 0 auto;
     }
 
 
     /* SERVICE */
     .service {
         height: auto;
-        background-image: linear-gradient(
-                rgba(4, 4, 4, 0.6),
-                rgba(4, 4, 4, 0.6)
-            ),
-            url(../images/toning-blank/service/bg.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         padding-bottom: 30px;
     }
 
@@ -1267,7 +1230,7 @@ a {
         font-weight: 700;
         font-size: 40px;
         line-height: 36px;
-        color: var(--extra-title-color);
+        color: var(--main-title-color);
     }
 
     .service-list{
@@ -1287,7 +1250,7 @@ a {
     }
 
     .service-item-icon{
-        fill: white;
+        fill: var(--icon-color);
         margin-right: 25px;
         min-width: 25px;
     }
@@ -1297,7 +1260,7 @@ a {
         font-weight: 400;
         font-size: 22px;
         line-height: 28px;
-        color: var(--extra-text-color);
+        color: var(--main-text-color);
     }
 
     .service-text{
@@ -1306,9 +1269,9 @@ a {
         font-weight: 400;
         font-size: 22px;
         line-height: 28px;
-        color: var(--extra-text-color);
+        color: var(--main-text-color);
         border-radius: 30px;
-        border: 1px solid;
+        border: 1px solid var(--icon-color);
     }
 
     .service-text-accent{
