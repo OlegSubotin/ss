@@ -683,7 +683,7 @@ a {
                 rgba(4, 4, 4, 0.4),
                 rgba(4, 4, 4, 0.4)
             ),
-            url(../images/home-blank/header/bg.jpg);
+            url(../images/home-blank/header/bg-tablet.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -944,9 +944,15 @@ a {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: center;
     }
 
+    .price-vertical-line{
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        display: none;
+    }
     .price-horizontal-line {
         border-bottom: 2px solid #e0e6ed;
         width: 200px;
@@ -956,6 +962,7 @@ a {
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding: 10px;
     }
 
     .price-item:not(:last-child) {
