@@ -546,6 +546,34 @@ a {
     .current {
         color: var(--icon-color);
     }
+
+     .footer-resources-list{
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-resources-item{
+        margin: 5px;
+    }
+
+    .footer-resource-master{
+        min-width: 53px;
+    }
+
+    .footer-resource-visa{
+        min-width: 53px;
+    }
+
+    .footer-resource-google{
+        min-width: 32px;
+    }
+
+    .footer-resource-trustpilot{
+        min-width: 100px;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -1006,6 +1034,35 @@ a {
     .current {
         color: var(--icon-color);
     }
+
+         .footer-resources-list{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-resources-item{
+        padding: 5px;
+        margin: 15px;
+    }
+
+    .footer-resource-master{
+        min-width: 53px;
+    }
+
+    .footer-resource-visa{
+        min-width: 53px;
+    }
+
+    .footer-resource-google{
+        min-width: 32px;
+    }
+
+    .footer-resource-trustpilot{
+        min-width: 100px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -1039,7 +1096,7 @@ a {
     }
 
     .header-logo-img {
-        min-width: 170px;
+        min-width: 120px;
     }
 
     .header-list {
@@ -1431,5 +1488,34 @@ a {
 
     .current {
         color: var(--icon-color);
+    }
+
+        .footer-resources-list{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-resources-item{
+        padding: 15px;
+        margin: 15px;
+    }
+
+    .footer-resource-master{
+        min-width: 53px;
+    }
+
+    .footer-resource-visa{
+        min-width: 53px;
+    }
+
+    .footer-resource-google{
+        min-width: 32px;
+    }
+
+    .footer-resource-trustpilot{
+        min-width: 100px;
     }
 }
