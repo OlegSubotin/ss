@@ -27,7 +27,7 @@
             href="./images/icon-logo.ico"
             type="image/ico"
             />
-        <title>Детейлинг в Харькове | Sparkle Studio</title>
+        <title class="lng-title">Детейлинг в Харькове | Sparkle Studio</title>
     </head>
     <body>
         <!-- HEADER -->
@@ -48,31 +48,31 @@
                             <li class="header-item">
                                 <a
                                     href="./detailing.html"
-                                    class="header-item-link"
+                                    class="header-item-link lng-chemical"
                                     >
                                 химчистка
                                 </a>
                             </li>
                             <li class="header-item">
-                                <a href="./film.html" class="header-item-link">
+                                <a href="./film.html" class="header-item-link lng-film">
                                 бронепленка
                                 </a>
                             </li>
                             <li class="header-item">
                                 <a
                                     href="./defence.html"
-                                    class="header-item-link"
+                                    class="header-item-link lng-defence"
                                     >
                                 покрытия
                                 </a>
                             </li>
                             <li class="header-item">
-                                <a href="./wash.html" class="header-item-link">
+                                <a href="./wash.html" class="header-item-link lng-wash">
                                 мойка
                                 </a>
                             </li>
                             <li class="header-item">
-                                <a href="./toning.html" class="header-item-link">
+                                <a href="./toning.html" class="header-item-link lng-toning">
                                 тонировка
                                 </a>
                             </li>
@@ -148,17 +148,26 @@
                             </a>
                         </li>
                     </ul>
+
+                    <select class="change-lang js-change-lang">
+                        <option value="ua" selected>UA</option>
+                        <option value="ru">RU</option>
+                    </select>
                 </div>
                 <div class="mob-wrapper">
                     <a class="header-logo" href="./index.html">
                     <img
                         class="header-logo-img"
-                        src="./images/logo.png"
+                        src="./images/logo-mob.png"
                         alt="Логотип компании"
-                        width="120"
-                        height="30"
+                        width="170"
+                        height="44"
                         />
                     </a>
+                    <select class="change-lang  js-change-lang-mob">
+                        <option value="ua" selected>UA</option>
+                        <option value="ru">RU</option>
+                    </select>
                     <button id="burger-open" class="open-btn">
                         <svg
                             class="header-burger-icon-open"
@@ -184,7 +193,7 @@
                             <li class="header-item">
                                 <a
                                     href="./index.html"
-                                    class="header-item-link current"
+                                    class="header-item-link current lng-home"
                                     >
                                 главная
                                 </a>
@@ -192,31 +201,31 @@
                             <li class="header-item">
                                 <a
                                     href="./detailing.html"
-                                    class="header-item-link"
+                                    class="header-item-link lng-chemical-mob"
                                     >
                                 химчистка
                                 </a>
                             </li>
                             <li class="header-item">
-                                <a href="./film.html" class="header-item-link">
+                                <a href="./film.html" class="header-item-link lng-film-mob">
                                 бронепленка
                                 </a>
                             </li>
                             <li class="header-item">
                                 <a
                                     href="./defence.html"
-                                    class="header-item-link"
+                                    class="header-item-link lng-defence-mob"
                                     >
                                 покрытия
                                 </a>
                             </li>
                             <li class="header-item">
-                                <a href="./wash.html" class="header-item-link">
+                                <a href="./wash.html" class="header-item-link lng-wash-mob">
                                 мойка
                                 </a>
                             </li>
                             <li class="header-item">
-                                <a href="./toning.html" class="header-item-link">
+                                <a href="./toning.html" class="header-item-link lng-toning-mob">
                                 тонировка
                                 </a>
                             </li>
@@ -292,6 +301,7 @@
                             </a>
                         </li>
                     </ul>
+                    
                 </div>
             </div>
         </header>
@@ -301,32 +311,33 @@
             <section class="hero">
                 <div class="container">
                     <div class="hero-wrapper">
-                        <h1 class="hero-title">Детейлинг в Харькове</h1>
+                        <h1 class="hero-title lng-hero-title">Детейлинг в Харькове</h1>
                         <ul class="hero-list">
                             <li class="hero-item">
-                                <p class="hero-text">
+                                <p class="hero-text lng-hero-text-one">
                                     Полная оклейка кузова антигравийной пленкой
                                 </p>
                             </li>
                             <li class="hero-item">
-                                <p class="hero-text">
+                                <p class="hero-text lng-hero-text-two">
                                     Нанесение защитных покрытий
                                 </p>
                             </li>
                             <li class="hero-item">
-                                <p class="hero-text">Детейлинг химчистка</p>
+                                <p class="hero-text lng-hero-text-three">Детейлинг химчистка</p>
                             </li>
                             <li class="hero-item">
-                                <p class="hero-text">Детейлинг мойка</p>
+                                <p class="hero-text lng-hero-text-four">Детейлинг мойка</p>
                             </li>
                             <li class="hero-item">
-                                <p class="hero-text">Тонировка стекол</p>
+                                <p class="hero-text lng-hero-text-five">Тонировка стекол</p>
                             </li>
                         </ul>
                         <button class="hero-button" id="hero-btn">
                         <a
                             href="tel:+380979038982"
-                            class="hero-button-link"
+                            class="hero-button-link
+                            lng-hero-button-link"
                             >
                         ПОЗВОНИТЬ
                         </a>
@@ -337,8 +348,8 @@
             <!-- SERVICE -->
             <section class="service">
                 <div class="container">
-                    <h2 class="service-title">Наши услуги</h2>
-                    <p class="service-text">
+                    <h2 class="service-title lng-service-title">Наши услуги</h2>
+                    <p class="service-text lng-service-text-one">
                         Обновление б\у и защита новых автомобилей
                     </p>
                     <ul class="service-list">
@@ -381,53 +392,59 @@
                                         />
                                 </picture>
                                 <div class="service-item-wrapper">
-                                    <h3 class="service-item-title">
+                                    <h3 class="service-item-title lng-service-item-title-one">
                                         Детейлинг химчистка автомобиля
                                     </h3>
                                 
                                 <ul class="service-item-list">
                                     <li class="service-item-item">
                                         <p
-                                            class="service-item-item-description"
+                                            class="service-item-item-description
+                                            lng-service-item-item-description-one"
                                             >
-                                            Чтобы салон всегда выглядел
-                                            безупречно, мы рекомендуем
-                                            регулярно, не реже, чем раз в год,
-                                            производить химчистку салона
-                                            автомобиля.
+                                            <span class="lng-service-item-item-description-one-1">Чтобы салон всегда выглядел
+                                            безупречно</span>,
+                                            <span class="lng-service-item-item-description-one-2">мы рекомендуем
+                                            регулярно</span>,
+                                            <span class="lng-service-item-item-description-one-3">не реже</span>,
+                                            <span class="lng-service-item-item-description-one-4">чем раз в год</span>,
+                                            <span class="lng-service-item-item-description-one-5">производить химчистку салона
+                                            автомобиля</span>.                                            
+                                        </p>
+                                    </li>
+                                    <li class="service-item-item">
+                                        <p
+                                            class="service-item-item-description lng-service-item-item-description-two"
+                                            >
+                                            <span class="lng-service-item-item-description-two-1">Ведь загрязнённая обивка — это
+                                            источник пыли и скопление микробов</span>.
                                         </p>
                                     </li>
                                     <li class="service-item-item">
                                         <p
                                             class="service-item-item-description"
                                             >
-                                            Ведь загрязнённая обивка — это
-                                            источник пыли и скопление микробов.
-                                        </p>
-                                    </li>
-                                    <li class="service-item-item">
-                                        <p
-                                            class="service-item-item-description"
-                                            >
-                                            Детейлинг химчистка салона
+                                            <span class="lng-service-item-item-description-three-1">Детейлинг химчистка салона
                                             автомобиля подразумевает обработку
-                                            всех элементов, в том числе каждого
+                                            всех элементов</span>,
+                                            <span class="lng-service-item-item-description-three-2">в том числе каждого
                                             стыка между панелями и мелкими
-                                            деталями салона.
+                                            деталями салона</span>.
                                         </p>
                                     </li>
                                     <li class="service-item-item">
                                         <p
                                             class="service-item-item-description"
                                             >
-                                            Химчистка в нашей студии полностью
+                                            <span class="lng-service-item-item-description-four-1">Химчистка в нашей студии полностью
                                             вернет салону вашего автомобиля
-                                            первоначальный вид.
+                                            первоначальный вид</span>.
                                         </p>
                                     </li>
                                 </ul>
                                 <span class="service-item-text">
-                                    Подробнее
+                                    <span class=" lng-service-item-text-one">Подробнее</span>
+                                    
                                     <svg
                                         class="service-item-text-icon"
                                         width="15px"
@@ -477,44 +494,48 @@
                                         />
                                 </picture>
                                 <div class="service-item-wrapper">
-                                    <h3 class="service-item-title">
+                                    <h3 class="service-item-title lng-film-service-item-title">
                                         Оклейка бронепленкой
                                     </h3>
                                 
                                 <p class="service-item-pre-title">
-                                    <span class="service-item-pre-title-part"
+                                    <span class="service-item-pre-title-part lng-film-service-item-pre-title-part-1"
                                         >Антигравийная плёнка</span
                                         >
-                                    - это надёжная защита от
+                                        <span class="lng-film-service-item-pre-title-part-2">- это надёжная защита от</span>
+                                    
                                 </p>
                                 <ul class="service-item-list">
                                     <li class="service-item-item">
                                         <p
                                             class="service-item-item-description"
                                             >
-                                            Механических повреждений (гравия,
-                                            незначительных ДТП, царапин, сколов)
-                                            лакокрасочного покрытия
+                                            <span class="lng-film-service-item-item-description-one-1">Механических повреждений (гравия</span>,
+                                            <span class="lng-film-service-item-item-description-one-2"> незначительных ДТП</span>,
+                                            <span class="lng-film-service-item-item-description-one-3">царапин</span>,
+                                            <span class="lng-film-service-item-item-description-one-4">сколов)
+                                            лакокрасочного покрытия</span>
                                         </p>
                                     </li>
                                     <li class="service-item-item">
                                         <p
                                             class="service-item-item-description"
                                             >
-                                            Ожогов (смол с деревьев, птичьего
-                                            помета)
+                                            <span class="lng-film-service-item-item-description-two-1">Ожогов (смол с деревьев</span>,
+                                            <span class="lng-film-service-item-item-description-two-2">птичьего
+                                            помета)</span>
                                         </p>
                                     </li>
                                     <li class="service-item-item">
                                         <p
-                                            class="service-item-item-description"
+                                            class="service-item-item-description lng-film-service-item-item-description-three"
                                             >
                                             Химии с дорог
                                         </p>
                                     </li>
                                     <li class="service-item-item">
                                         <p
-                                            class="service-item-item-description"
+                                            class="service-item-item-description lng-film-service-item-item-description-four"
                                             >
                                             А также пленка придает потрясающий
                                             блеск и гидрофобный эффект
@@ -522,7 +543,7 @@
                                     </li>
                                     <li class="service-item-item">
                                         <p
-                                            class="service-item-item-description"
+                                            class="service-item-item-description lng-film-service-item-item-description-five"
                                             >
                                             Мы используем высококачественную
                                             полиуретановую пленку SunTek
@@ -531,7 +552,7 @@
                                     </li>
                                 </ul>
                                 <span class="service-item-text">
-                                    Подробнее
+                                    <span class="lng-film-service-item-text">Подробнее</span>
                                     <svg
                                         class="service-item-text-icon"
                                         width="15px"
@@ -581,44 +602,49 @@
                                         />
                                 </picture>
                                 <div class="service-item-wrapper">
-                                    <h3 class="service-item-title">
+                                    <h3 class="service-item-title lng-defence-service-item-title">
                                         Защитные покрытия
                                     </h3>
                                 
                                 <p class="service-item-pre-title">
-                                    Хотите, чтобы Ваш автомобиль всегда
+                                    <span class="lng-defence-service-item-pre-title-1">Хотите</span>,
+                                    <span class="lng-defence-service-item-pre-title-2">чтобы Ваш автомобиль всегда
                                     оставался неотразим? Но множество факторов
                                     внешней среды этого не хотят. Агрессивные
-                                    реагенты, ультрафиолет, а также щелочная
+                                    реагенты</span>,
+                                    <span class="lng-defence-service-item-pre-title-3">ультрафиолет</span>
+                                    <span class="lng-defence-service-item-pre-title-4">а также щелочная
                                     химия на автомойках. Такие защитные покрытия
-                                    как твердый воск, помогут Вам защитить ЛКП
-                                    автомобиля, а также придадут:
+                                    как твердый воск</span>,
+                                    <span class="lng-defence-service-item-pre-title-5">помогут Вам защитить ЛКП
+                                    автомобиля</span>,
+                                    <span class="lng-defence-service-item-pre-title-6">а также придадут:</span>
                                 </p>
                                 <ul class="service-item-list">
                                     <li class="service-item-item">
                                         <p
-                                            class="service-item-item-description"
+                                            class="service-item-item-description lng-defence-service-item-item-description-1"
                                             >
                                             потрясающий блеск
                                         </p>
                                     </li>
                                     <li class="service-item-item">
                                         <p
-                                            class="service-item-item-description"
+                                            class="service-item-item-description lng-defence-service-item-item-description-2"
                                             >
                                             насытят цвет
                                         </p>
                                     </li>
                                     <li class="service-item-item">
                                         <p
-                                            class="service-item-item-description"
+                                            class="service-item-item-description lng-defence-service-item-item-description-3"
                                             >
                                             придадут гидрофобный эффект
                                         </p>
                                     </li>
                                 </ul>
-                                <span class="service-item-text">
-                                    Подробнее
+                                <span class="service-item-text ">
+                                  <span class="lng-defence-service-item-text">Подробнее</span>  
                                     <svg
                                         class="service-item-text-icon"
                                         width="15px"
@@ -668,46 +694,47 @@
                                         />
                                 </picture>
                                 <div class="service-item-wrapper">
-                                    <h3 class="service-item-title">
+                                    <h3 class="service-item-title lng-wash-service-item-title">
                                         Детейлинг мойка
                                     </h3>
                                 
-                                <p class="service-item-pre-title">
+                                <p class="service-item-pre-title lng-wash-service-item-pre-title">
                                     Привести авто в идеальный порядок позволяет
                                     детейлинг мойка автомобиля
                                 </p>
                                 <ul class="service-item-list">
                                     <li class="service-item-item">
                                         <p
-                                            class="service-item-item-description"
+                                            class="service-item-item-description lng-wash-service-item-item-description-1"
                                             >
                                             трехфазная мойка
                                         </p>
                                     </li>
                                     <li class="service-item-item">
                                         <p
-                                            class="service-item-item-description"
+                                            class="service-item-item-description lng-wash-service-item-item-description-2"
                                             >
                                             сушка микрофибровыми салфетками
                                         </p>
                                     </li>
                                     <li class="service-item-item">
                                         <p
-                                            class="service-item-item-description"
+                                            class="service-item-item-description lng-wash-service-item-item-description-3"
                                             >
                                             продувка воздухом
                                         </p>
                                     </li>
                                     <li class="service-item-item">
                                         <p
-                                            class="service-item-item-description"
+                                            class="service-item-item-description lng-wash-service-item-item-description-4"
                                             >
                                             чернение резины
                                         </p>
                                     </li>
                                 </ul>
                                 <span class="service-item-text">
-                                    Подробнее
+                                    <span class="lng-wash-service-item-text">Подробнее</span>
+                                    
                                     <svg
                                         class="service-item-text-icon"
                                         width="15px"
@@ -757,45 +784,46 @@
                                         />
                                 </picture>
                                 <div class="service-item-wrapper">
-                                    <h3 class="service-item-title">
+                                    <h3 class="service-item-title lng-toning-service-item-title">
                                         Тонировка стекол
                                     </h3>
                                 
-                                <p class="service-item-pre-title">
+                                <p class="service-item-pre-title lng-toning-service-item-pre-title">
                                      Недорогой способ уберечь себя от ослепления прямым солнечным светом днем и огнями встречного транспорта в темное время суток
                                 </p>
                                 <ul class="service-item-list">
                                     <li class="service-item-item">
                                         <p
-                                            class="service-item-item-description"
+                                            class="service-item-item-description lng-toning-service-item-item-description-1"
                                             >
                                             трехфазная мойка
                                         </p>
                                     </li>
                                     <li class="service-item-item">
                                         <p
-                                            class="service-item-item-description"
+                                            class="service-item-item-description lng-toning-service-item-item-description-2"
                                             >
                                             тонировка стекол
                                         </p>
                                     </li>
                                     <li class="service-item-item">
                                         <p
-                                            class="service-item-item-description"
+                                            class="service-item-item-description lng-toning-service-item-item-description-3"
                                             >
                                             уборка салона
                                         </p>
                                     </li>
                                     <li class="service-item-item">
                                         <p
-                                            class="service-item-item-description"
+                                            class="service-item-item-description lng-toning-service-item-item-description-4"
                                             >
                                             чернение резины
                                         </p>
                                     </li>
                                 </ul>
                                 <span class="service-item-text">
-                                    Подробнее
+                                    <span class="lng-toning-service-item-text">Подробнее</span>
+                                    
                                     <svg
                                         class="service-item-text-icon"
                                         width="15px"
@@ -815,7 +843,7 @@
             <!-- STOCKS -->
             <section class="stocks">
                 <div class="container">
-                    <h2 class="stocks-title">Акции</h2>
+                    <h2 class="stocks-title lng-stocks-title">Акции</h2>
                     <ul class="stocks-list">
                         <li class="stocks-item">
                             <picture>
@@ -851,14 +879,14 @@
                                     />
                             </picture>
                             <div class="stocks-description">
-                                <h3 class="stocks-item-title">
+                                <h3 class="stocks-item-title lng-stocks-item-title-1">
                                     Спецпредложение
                                 </h3>
-                                <p class="stocks-item-text">
+                                <p class="stocks-item-text lng-stocks-item-text-1">
                                     Запишись на любую услугу до 1 июля и
                                     получи скидку 10%!
                                 </p>
-                                <a class="stocks-item-link" href="#form">
+                                <a class="stocks-item-link lng-stocks-item-link-1" href="#form">
                                     Успей записаться!
                                     <svg
                                         class="stocks-item-icon"
@@ -906,15 +934,15 @@
                                     />
                             </picture>
                             <div class="stocks-description">
-                                <h3 class="stocks-item-title">
+                                <h3 class="stocks-item-title lng-stocks-item-title-2">
                                     Акция <br />
                                     "Твердый воск"
                                 </h3>
-                                <p class="stocks-item-text">
+                                <p class="stocks-item-text lng-stocks-item-text-2">
                                     При оклейке фронтальной части авто пленкой (
                                     <a href="./film.html#standart" style="color: inherit; font-weight: 700;">Комплекс Стандарт</a> ) услуга Твердый воск в подарок
                                 </p>
-                                <a class="stocks-item-link" href="#form">
+                                <a class="stocks-item-link lng-stocks-item-link-2" href="#form">
                                     Успей записаться!
                                     <svg
                                         class="stocks-item-icon"
@@ -936,9 +964,10 @@
                 <div class="container">
                     <a id="form" href="#"></a>
                     <h2 class="contact-title">
-                        <span class="contact-title-part">Запись</span>
+                        <span class="contact-title-part lng-contact-title-part">Запись</span>
                         <br />
-                        на бесплатную консультацию
+                        <span class="lng-contact-title-part-2">на бесплатную консультацию</span>
+                        
                     </h2>
                     <form class="contact-form js-form" id="home">
                         <input
@@ -946,20 +975,20 @@
                             name="name"
                             class="contact-form-input js-name"
                             type="text"
-                            placeholder="Ваше имя"
+                            placeholder="Олег"
                             />
                         <input
                             required
                             name="phone"
                             class="contact-form-input js-tel"
                             type="tel"
-                            placeholder="Ваш номер телефона"
+                            placeholder="+380991112233"
                             />
-                        <button type="submit" class="contact-form-button js-submit">Записаться</button>
+                        <button type="submit" class="contact-form-button js-submit lng-contact-form-button">Записаться</button>
                     </form>
                     <div id="popup" class="overlay is-hidden">
                         <div class="popup">
-                            <p class="content">
+                            <p class="content lng-content">
                                 Спасибо, мы скоро с вами свяжемся
                             </p>
                         </div>
@@ -982,38 +1011,38 @@
                     </a>
                     <ul class="footer-nav-list">
                         <li class="footer-nav-item">
-                            <a href="./index.html" class="footer-nav-item-link current">
+                            <a href="./index.html" class="footer-nav-item-link current lng-footer-home">
                             Главная
                             </a>
                         </li>
                         <li class="footer-nav-item">
                             <a
                                 href="./detailing.html"
-                                class="footer-nav-item-link "
+                                class="footer-nav-item-link lng-footer-chemical"
                                 >
                             Химчистка
                             </a>
                         </li>
                         <li class="footer-nav-item">
-                            <a href="./film.html" class="footer-nav-item-link">
+                            <a href="./film.html" class="footer-nav-item-link lng-footer-film">
                             Бронепленка
                             </a>
                         </li>
                         <li class="footer-nav-item">
                             <a
                                 href="./defence.html"
-                                class="footer-nav-item-link"
+                                class="footer-nav-item-link lng-footer-defence"
                                 >
                             Покрытия
                             </a>
                         </li>
                         <li class="footer-nav-item">
-                            <a href="./wash.html" class="footer-nav-item-link">
+                            <a href="./wash.html" class="footer-nav-item-link lng-footer-wash">
                             Мойка
                             </a>
                         </li>
                         <li class="footer-nav-item">
-                            <a href="./toning.html" class="footer-nav-item-link">
+                            <a href="./toning.html" class="footer-nav-item-link lng-footer-toning">
                             Тонировка
                             </a>
                         </li>
@@ -1067,8 +1096,9 @@
                                         <use
                                             href="./images/sprite.svg#icon-location"
                                             ></use>
-                                    </svg>
-                                    ул. Марьинская 20
+                                    </svg> 
+                                    <span class="lng-footer-link-address">ул. Марьинская 20</span>
+                                   
                                 </a>
                             </li>
                             <li class="footer-item">
@@ -1199,5 +1229,8 @@
         </footer>
         <script src="./js/mob-menu.js" type="module"></script>
         <script src="./js/sender.js" type="module"></script>
+        <script src="./js/home-lang.js"></script>
+        <script src="./js/translator.js" type="module"></script>
+        <script src="./js/translator-mob.js" type="module"></script>
     </body>
 </html>
