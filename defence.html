@@ -27,7 +27,7 @@
             href="./images/icon-logo.ico"
             type="image/ico"
             />
-        <title>Защитные покрытия | Sparkle Studio</title>
+        <title class="lng-title">Защитные покрытия | Sparkle Studio</title>
     </head>
     <body>
         <!-- HEADER -->
@@ -48,31 +48,31 @@
                             <li class="header-item">
                                 <a
                                     href="./detailing.html"
-                                    class="header-item-link"
+                                    class="header-item-link lng-chemical"
                                     >
                                 химчистка
                                 </a>
                             </li>
                             <li class="header-item">
-                                <a href="./film.html" class="header-item-link">
+                                <a href="./film.html" class="header-item-link lng-film">
                                 бронепленка
                                 </a>
                             </li>
                             <li class="header-item">
                                 <a
                                     href="./defence.html"
-                                    class="header-item-link current"
+                                    class="header-item-link current lng-defence"
                                     >
                                 покрытия
                                 </a>
                             </li>
                             <li class="header-item">
-                                <a href="./wash.html" class="header-item-link">
+                                <a href="./wash.html" class="header-item-link lng-wash">
                                 мойка
                                 </a>
                             </li>
                             <li class="header-item">
-                                <a href="./toning.html" class="header-item-link">
+                                <a href="./toning.html" class="header-item-link lng-toning">
                                 тонировка
                                 </a>
                             </li>
@@ -148,6 +148,10 @@
                             </a>
                         </li>
                     </ul>
+                    <select class="change-lang js-change-lang">
+                        <option value="ua" selected>UA</option>
+                        <option value="ru">RU</option>
+                    </select>
                 </div>
                 <div class="mob-wrapper">
                     <a class="header-logo" href="./index.html">
@@ -158,7 +162,11 @@
                         width="170"
                         height="44"
                         />
-                    </a>
+                    </a>                    
+                    <select class="change-lang  js-change-lang-mob">
+                        <option value="ua" selected>UA</option>
+                        <option value="ru">RU</option>
+                    </select>
                     <button id="burger-open" class="open-btn">
                         <svg
                             class="header-burger-icon-open"
@@ -184,7 +192,7 @@
                             <li class="header-item">
                                 <a
                                     href="./index.html"
-                                    class="header-item-link "
+                                    class="header-item-link lng-home"
                                     >
                                 главная
                                 </a>
@@ -192,31 +200,31 @@
                             <li class="header-item">
                                 <a
                                     href="./detailing.html"
-                                    class="header-item-link"
+                                    class="header-item-link lng-chemical-mob"
                                     >
                                 химчистка
                                 </a>
                             </li>
                             <li class="header-item">
-                                <a href="./film.html" class="header-item-link">
+                                <a href="./film.html" class="header-item-link lng-film-mob">
                                 бронепленка
                                 </a>
                             </li>
                             <li class="header-item">
                                 <a
                                     href="./defence.html"
-                                    class="header-item-link current"
+                                    class="header-item-link current lng-defence-mob"
                                     >
                                 покрытия
                                 </a>
                             </li>
                             <li class="header-item">
-                                <a href="./wash.html" class="header-item-link">
+                                <a href="./wash.html" class="header-item-link lng-wash-mob">
                                 мойка
                                 </a>
                             </li>
                             <li class="header-item">
-                                <a href="./toning.html" class="header-item-link">
+                                <a href="./toning.html" class="header-item-link lng-toning-mob">
                                 тонировка
                                 </a>
                             </li>
@@ -301,21 +309,21 @@
             <section class="hero">
                 <div class="container">
                     <div class="hero-wrapper">
-                        <h2 class="hero-title">Защитные покрытия</h2>
+                        <h2 class="hero-title lng-hero-title">Защитные покрытия</h2>
                         <ul class="hero-list">
                             <li class="hero-item">
-                                <p class="hero-text">Твердый воск</p>
+                                <p class="hero-text lng-hero-text-1">Твердый воск</p>
                             </li>
                             <li class="hero-item">
-                                <p class="hero-text">
+                                <p class="hero-text lng-hero-text-2">
                                     Гидрофобное покрытие для стекл
                                 </p>
                             </li>
                         </ul>
-                        <button class="hero-button" id="hero-btn">
+                        <button class="hero-button " id="hero-btn">
                         <a
                             href="tel:+380979038982"
-                            class="hero-button-link"
+                            class="hero-button-link lng-hero-button-link"
                             >
                         ПОЗВОНИТЬ
                         </a>
@@ -326,9 +334,9 @@
             <!-- SELL TEXT -->
             <section class="sell">
                 <div class="container">
-                    <h2 class="sell-title">Оставляй автомобиль неотразимым</h2>
+                    <h2 class="sell-title lng-sell-title">Оставляй автомобиль неотразимым</h2>
                     <div class="sell-text-wrapper">
-                        <p class="sell-text">
+                        <p class="sell-text lng-sell-text-2">
                             <b> Хотите, чтобы Ваш автомобиль всегда оставался
                             неотразим?</b> <br> Но множество факторов внешней среды этого
                             не хотят. Агрессивные реагенты, ультрафиолет, а
@@ -337,13 +345,13 @@
                             защитить ЛКП автомобиля, а также придадут:
                         <ul class="sell-text-list">
                             <li class="sell-text-item">
-                                <p class="sell-text-item-text">насыщенный и глубокий цвет лакокрасочному покрытию</p>
+                                <p class="sell-text-item-text lng-sell-text-item-text-1">насыщенный и глубокий цвет лакокрасочному покрытию</p>
                             </li>
                             <li class="sell-text-item">
-                                <p class="sell-text-item-text">уменьшает воздействие ультрафиолета, краска на кузове не будет выгорать и терять свой внешний вид</p>
+                                <p class="sell-text-item-text lng-sell-text-item-text-2">уменьшает воздействие ультрафиолета, краска на кузове не будет выгорать и терять свой внешний вид</p>
                             </li>
                             <li class="sell-text-item">
-                                <p class="sell-text-item-text">придадут гидрофобный эффект</p>
+                                <p class="sell-text-item-text lng-sell-text-item-text-3">придадут гидрофобный эффект</p>
                             </li>
                         </ul>
                         </p>
@@ -353,12 +361,12 @@
             <!-- SOLUTION -->
             <section class="solution">
                 <div class="container">
-                    <h2 class="solution-title">
+                    <h2 class="solution-title lng-solution-title">
                         Решение
                     </h2>
                     <ul class="solution-list">
                         <li class="solution-item">
-                            <h3 class="solution-item-title">
+                            <h3 class="solution-item-title lng-rain-solution-item-title">
                                 Антидождь
                             </h3>
                             <picture>
@@ -394,25 +402,25 @@
                                     alt="Дождь на окне"
                                     />
                             </picture>
-                            <p class="solution-item-text">
+                            <p class="solution-item-text lng-rain-solution-item-text">
                                 <b>Гидрофобное покрытие для стекла</b> Придаёт сильные водоотталкивающие свойства, при которых вода, собираясь в капли, не задерживается на обработанной поверхности. Встречный поток воздуха сбрасывает капли со стекла уже
                                 на 50 км\ч.
                                 <br>Покрытие препятствует отложениям в виде:
                             </p>
                             <ul class="solution-item-text-list">
                                 <li class="solution-item-text-item">
-                                    <p class="solution-item-text-item-text">грязи</p>
+                                    <p class="solution-item-text-item-text lng-rain-solution-item-text-item-text-1">грязи</p>
                                 </li>
                                 <li class="solution-item-text-item">
-                                    <p class="solution-item-text-item-text">мошки и птичьего гуано</p>
+                                    <p class="solution-item-text-item-text lng-rain-solution-item-text-item-text-2">мошки и птичьего гуано</p>
                                 </li>
                                 <li class="solution-item-text-item">
-                                    <p class="solution-item-text-item-text">образованию ледяной корки</p>
+                                    <p class="solution-item-text-item-text lng-rain-solution-item-text-item-text-3">образованию ледяной корки</p>
                                 </li>
                             </ul>
                         </li>
                         <li class="solution-item">
-                            <h3 class="solution-item-title">
+                            <h3 class="solution-item-title lng-vosk-solution-item-title">
                                 Твердый воск
                             </h3>
                             <picture>
@@ -448,31 +456,31 @@
                                     alt="Демонстрация воска"
                                     />
                             </picture>
-                            <p class="solution-item-text">
+                            <p class="solution-item-text lng-vosk-solution-item-text-1">
                                 <b>New Water Block</b> создает на кузове:
                             </p>
                             <ul class="solution-item-text-list">
                                 <li class="solution-item-text-item">
-                                    <p class="solution-item-text-item-text">прочный защитный слой</p>
+                                    <p class="solution-item-text-item-text lng-solution-item-text-item-text-1">прочный защитный слой</p>
                                 </li>
                                 <li class="solution-item-text-item">
-                                    <p class="solution-item-text-item-text">идеально ровную поверхность</p>
+                                    <p class="solution-item-text-item-text lng-solution-item-text-item-text-2">идеально ровную поверхность</p>
                                 </li>
                                 <li class="solution-item-text-item">
-                                    <p class="solution-item-text-item-text">уникальный гидрофобный эффект</p>
+                                    <p class="solution-item-text-item-text lng-solution-item-text-item-text-3">уникальный гидрофобный эффект</p>
                                 </li>
                                 <li class="solution-item-text-item">
-                                    <p class="solution-item-text-item-text">насыщает блеском</p>
+                                    <p class="solution-item-text-item-text lng-solution-item-text-item-text-4">насыщает блеском</p>
                                 </li>
                                 <li class="solution-item-text-item">
-                                    <p class="solution-item-text-item-text">скрывает мелкие повреждения (паутину)</p>
+                                    <p class="solution-item-text-item-text lng-solution-item-text-item-text-5">скрывает мелкие повреждения (паутину)</p>
                                 </li>
                             </ul>
-                            <p class="solution-item-text">Автомобиль дольше остается чистым.
+                            <p class="solution-item-text lng-vosk-solution-item-text-2">Автомобиль дольше остается чистым.
                             </p>
                         </li>
                         <li class="solution-item">
-                            <h3 class="solution-item-title">
+                            <h3 class="solution-item-title lng-disk-solution-item-title">
                                 Защита для дисков
                             </h3>
                             <picture>
@@ -508,21 +516,21 @@
                                     alt="Диск авто"
                                     />
                             </picture>
-                            <p class="solution-item-text">
+                            <p class="solution-item-text lng-disk-solution-item-text-1">
                                 Диски очень быстро загрязняются:
                             </p>
                             <ul class="solution-item-text-list">
                                 <li class="solution-item-text-item">
-                                    <p class="solution-item-text-item-text">грязью</p>
+                                    <p class="solution-item-text-item-text lng-disk-solution-item-text-item-text-1">грязью</p>
                                 </li>
                                 <li class="solution-item-text-item">
-                                    <p class="solution-item-text-item-text">металлической пылью от колодок</p>
+                                    <p class="solution-item-text-item-text lng-disk-solution-item-text-item-text-2">металлической пылью от колодок</p>
                                 </li>
                                 <li class="solution-item-text-item">
-                                    <p class="solution-item-text-item-text">битумом</p>
+                                    <p class="solution-item-text-item-text lng-disk-solution-item-text-item-text-3">битумом</p>
                                 </li>
                             </ul>
-                            <p class="solution-item-text">
+                            <p class="solution-item-text lng-disk-solution-item-text-2">
                                 Чтобы уменьшить количество этих загрязнений во время езды, рекомендуем нанести защитное покрытие на диски.
                             </p>
                         </li>
@@ -532,13 +540,13 @@
             <!-- PRICE -->
             <section class="price">
                 <div class="container">
-                    <h2 class="price-title">
+                    <h2 class="price-title lng-price-title">
                         Что входит в комплекс?
                     </h2>
                     <ul class="price-list">
                         <li class="price-item">
-                            <h3 class="price-item-title">
-                                "Антидождь"
+                            <h3 class="price-item-title lng-rain-price-item-title">
+                                Антидождь
                             </h3>
                             <picture>
                                 <source
@@ -575,30 +583,30 @@
                             </picture>
                             <ul class="price-item-text-list">
                                 <li class="price-item-text-item">
-                                    <p class="price-item-text-item-text">Очищаем стекла "Glass Compound" Soft99</p>
+                                    <p class="price-item-text-item-text lng-rain-price-item-text-item-text-1">Очищаем стекла "Glass Compound" Soft99</p>
                                 </li>
                                 <li class="price-item-text-item">
-                                    <p class="price-item-text-item-text">Обезжириваем</p>
+                                    <p class="price-item-text-item-text lng-rain-price-item-text-item-text-2">Обезжириваем</p>
                                 </li>
                                 <li class="price-item-text-item">
-                                    <p class="price-item-text-item-text">Наносим состав " Glaco" Soft99</p>
+                                    <p class="price-item-text-item-text lng-rain-price-item-text-item-text-3">Наносим состав " Glaco" Soft99</p>
                                 </li>
                             </ul>
-                            <p class="price-item-text">
+                            <p class="price-item-text lng-rain-price-item-text-price">
                                 <b>Стоимость услуги от 500 грн.*</b>
                             </p>
                             <div
                                 class="price-item-link-wrapper"
                                 >
                                 <a
-                                    class="price-item-link"
+                                    class="price-item-link lng-rain-price-item-link"
                                     href="#form"
                                     >Записаться</a
                                     >
                             </div>
                         </li>
                         <li class="price-item">
-                            <h3 class="price-item-title">
+                            <h3 class="price-item-title lng-vosk-price-item-title">
                                 "Твердый воск"
                             </h3>
                             <picture>
@@ -636,39 +644,39 @@
                             </picture>
                             <ul class="price-item-text-list">
                                 <li class="price-item-text-item">
-                                    <p class="price-item-text-item-text">Моем автомобиль двухфазной мойкой с нанесением антибитума</p>
+                                    <p class="price-item-text-item-text lng-vosk-price-item-text-item-text-1">Моем автомобиль двухфазной мойкой с нанесением антибитума</p>
                                 </li>
                                 <li class="price-item-text-item">
-                                    <p class="price-item-text-item-text">Очищаем автомобиль "глиной для кузова" от въевшихся загрязнений</p>
+                                    <p class="price-item-text-item-text lng-vosk-price-item-text-item-text-2">Очищаем автомобиль "глиной для кузова" от въевшихся загрязнений</p>
                                 </li>
                                 <li class="price-item-text-item">
-                                    <p class="price-item-text-item-text">Обезжириваем кузов</p>
+                                    <p class="price-item-text-item-text lng-vosk-price-item-text-item-text-3">Обезжириваем кузов</p>
                                 </li>
                                 <li class="price-item-text-item">
-                                    <p class="price-item-text-item-text">Наносим Воск</p>
+                                    <p class="price-item-text-item-text lng-vosk-price-item-text-item-text-4">Наносим Воск</p>
                                 </li>
                                 <li class="price-item-text-item">
-                                    <p class="price-item-text-item-text">Убираем салон</p>
+                                    <p class="price-item-text-item-text lng-vosk-price-item-text-item-text-5">Убираем салон</p>
                                 </li>
                                 <li class="price-item-text-item">
-                                    <p class="price-item-text-item-text">Черним резину</p>
+                                    <p class="price-item-text-item-text lng-vosk-price-item-text-item-text-6">Черним резину</p>
                                 </li>
                             </ul>
-                            <p class="price-item-text">
+                            <p class="price-item-text lng-vosk-price-item-text-price">
                                 <b>Стоимость услуги от 1100 грн.*</b>
                             </p>
                             <div
-                                class="price-item-link-wrapper"
+                                class="price-item-link-wrapper "
                                 >
                                 <a
-                                    class="price-item-link"
+                                    class="price-item-link lng-vosk-price-item-link"
                                     href="#form"
                                     >Записаться</a
                                     >
                             </div>
                         </li>
                         <li class="price-item">
-                            <h3 class="price-item-title">
+                            <h3 class="price-item-title lng-disk-price-item-title">
                                 "Защита для дисков"
                             </h3>
                             <picture>
@@ -706,33 +714,33 @@
                             </picture>
                             <ul class="price-item-text-list">
                                 <li class="price-item-text-item">
-                                    <p class="price-item-text-item-text">Моем диски с нанесением антибитума и очищаем кислотой</p>
+                                    <p class="price-item-text-item-text lng-disk-price-item-text-item-text-1">Моем диски с нанесением антибитума и очищаем кислотой</p>
                                 </li>
                                 <li class="price-item-text-item">
-                                    <p class="price-item-text-item-text">Обезжириваем диски</p>
+                                    <p class="price-item-text-item-text lng-disk-price-item-text-item-text-2">Обезжириваем диски</p>
                                 </li>
                                 <li class="price-item-text-item">
-                                    <p class="price-item-text-item-text">Наносим воск</p>
+                                    <p class="price-item-text-item-text lng-disk-price-item-text-item-text-3">Наносим воск</p>
                                 </li>
                                 <li class="price-item-text-item">
-                                    <p class="price-item-text-item-text">Черним резину</p>
+                                    <p class="price-item-text-item-text lng-disk-price-item-text-item-text-4">Черним резину</p>
                                 </li>
                             </ul>
-                            <p class="price-item-text">
+                            <p class="price-item-text lng-disk-price-item-text-price">
                                 <b>Стоимость услуги от 500 грн.*</b>
                             </p>
                             <div
                                 class="price-item-link-wrapper"
                                 >
                                 <a
-                                    class="price-item-link"
+                                    class="price-item-link lng-disk-price-item-link"
                                     href="#form"
                                     >Записаться</a
                                     >
                             </div>
                         </li>
                     </ul>
-                    <p class="price-text">*Стоимость услуги зависит от размера авто и размеров дисков</p>
+                    <p class="price-text lng-price-text-ref">*Стоимость услуги зависит от размера авто и размеров дисков</p>
                 </div>
             </section>
             <!-- CONTACT FORM -->
@@ -740,9 +748,9 @@
                 <div class="container">
                     <a href="#" id="form"></a>
                     <h2 class="contact-title">
-                        <span class="contact-title-part">Запись</span>
-                        <br />
-                        на бесплатную консультацию
+                        <span class="contact-title-part lng-contact-title-part">Запись</span>
+                        <br /> <span class="lng-contact-title-part-2"> на бесплатную консультацию</span>
+                        
                     </h2>
                     <form class="contact-form js-form" id="zashity pokrytiya">
                         <input
@@ -750,20 +758,20 @@
                             name="name"
                             class="contact-form-input js-name"
                             type="text"
-                            placeholder="Ваше имя"
+                            placeholder="Олег"
                             />
                         <input
                             required
                             name="phone"
                             class="contact-form-input js-tel"
                             type="tel"
-                            placeholder="Ваш номер телефона"
+                            placeholder="+380102223344"
                             />
-                        <button type="submit" class="contact-form-button js-submit">Записаться</button>
+                        <button type="submit" class="contact-form-button js-submit lng-contact-form-button">Записаться</button>
                     </form>
-                    <div id="popup" class="overlay is-hidden">
+                    <div id="popup" class="overlay is-hidden"> 
                         <div class="popup">
-                            <p class="content">
+                            <p class="content lng-content">
                                 Спасибо, мы скоро с вами свяжемся
                             </p>
                         </div>
@@ -786,38 +794,38 @@
                     </a>
                     <ul class="footer-nav-list">
                         <li class="footer-nav-item">
-                            <a href="./index.html" class="footer-nav-item-link ">
+                            <a href="./index.html" class="footer-nav-item-link lng-footer-home ">
                             Главная
                             </a>
                         </li>
                         <li class="footer-nav-item">
                             <a
                                 href="./detailing.html"
-                                class="footer-nav-item-link "
+                                class="footer-nav-item-link lng-footer-chemical"
                                 >
                             Химчистка
                             </a>
                         </li>
                         <li class="footer-nav-item">
-                            <a href="./film.html" class="footer-nav-item-link">
+                            <a href="./film.html" class="footer-nav-item-link lng-footer-film">
                             Бронепленка
                             </a>
                         </li>
                         <li class="footer-nav-item">
                             <a
                                 href="./defence.html"
-                                class="footer-nav-item-link current"
+                                class="footer-nav-item-link current lng-footer-defence"
                                 >
                             Покрытия
                             </a>
                         </li>
                         <li class="footer-nav-item">
-                            <a href="./wash.html" class="footer-nav-item-link">
+                            <a href="./wash.html" class="footer-nav-item-link lng-footer-wash">
                             Мойка
                             </a>
                         </li>
                         <li class="footer-nav-item">
-                            <a href="./toning.html" class="footer-nav-item-link">
+                            <a href="./toning.html" class="footer-nav-item-link lng-footer-toning">
                             Тонировка
                             </a>
                         </li>
@@ -872,7 +880,8 @@
                                             href="./images/sprite.svg#icon-location"
                                             ></use>
                                     </svg>
-                                    ул. Марьинская 20
+                                    <span class="lng-footer-link-address">ул. Марьинская 20</span>
+                                    
                                 </a>
                             </li>
                             <li class="footer-item">
@@ -1003,5 +1012,8 @@
         </footer>
         <script src="./js/mob-menu.js" type="module"></script>
         <script src="./js/sender.js" type="module"></script>
+        <script src="./js/defence-lang.js"></script>
+        <script src="./js/translator.js" type="module"></script>
+        <script src="./js/translator-mob.js" type="module"></script>
     </body>
 </html>
