@@ -79,7 +79,7 @@ const langArr = {
     // SUNTEK
     "suntek-title": {
         "ru": "ОКЛЕЙКА АВТО ПЛЕНКОЙ SUNTEK",
-        "ua": "ОКЛІВАННЯ АВТО ПЛІВКОЮ SUNTEK",
+        "ua": "ОБКЛІЮВАННЯ АВТО ПЛІВКОЮ SUNTEK",
     },
     "suntek-text": {
         "ru": " Прозрачная защитная пленка SunTek PPF (Paint Protection Films) - является одной из лучших антигравийных пленок для кузова автомобиля в настоящее время.",
