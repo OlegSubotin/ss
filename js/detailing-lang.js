@@ -22,7 +22,7 @@ const langArr = {
     },
     "toning": {
         "ru": "тонировка",
-        "ua": "тоніровка",
+        "ua": "тонування",
     },
     // header-mob
     "home": {
@@ -47,7 +47,7 @@ const langArr = {
     },
     "toning-mob": {
         "ru": "тонировка",
-        "ua": "тоніровка",
+        "ua": "тонування",
     },
 
     // HERO
@@ -229,7 +229,7 @@ const langArr = {
     },
     "footer-toning": {
         "ru": "Тонировка",
-        "ua": "Тоніровка",
+        "ua": "Тонування",
     },
     "footer-link-address": {
         "ru": "ул. Марьинская 20",
