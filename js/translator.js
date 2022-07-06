@@ -17,6 +17,7 @@ function changeLanguage() {
         location.reload();
     };
     selectEl.value = hash;
+
     if (hash === 'ru') {
         return;
     }
@@ -28,12 +29,6 @@ function changeLanguage() {
                 };
         }; 
     };
-    // for (let key in langArr) {
-    //     let elem = document.querySelector('.lng-' + key);
-    //     if (elem) {
-    //         elem.innerHTML = langArr[key][hash];
-    //     };
-    // };
 }
 
 changeLanguage();

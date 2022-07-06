@@ -1,8 +1,8 @@
 const langArr = {
     // header
     "title": {
-        "ru": "Детейлинг мойка  | Sparkle Studio",
-        "ua": "Дітейлінг мийка | Sparkle Studio",
+        "ru": "Детейлинг мойка авто в Харькове | Sparkle Studio",
+        "ua": "Дітейлинг мийка авто в Харкові | Sparkle Studio",
     },
     "chemical": {
         "ru": "химчистка",

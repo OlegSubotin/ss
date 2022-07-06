@@ -1,8 +1,8 @@
 const langArr = {
     // header
     "title": {
-        "ru": "Тонировка стекол   | Sparkle Studio",
-        "ua": "Тонування скла | Sparkle Studio",
+        "ru": "Тонировка автомобиля в Харькове | Sparkle Studio",
+        "ua": "Тонування автомобіля у Харкові | Sparkle Studio",
     },
     "chemical": {
         "ru": "химчистка",
