@@ -409,6 +409,107 @@ a {
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     }
 
+    /* PRICE */
+
+    .price {
+        margin-top: 50px;
+    }
+
+    .price-title {
+        padding-top: 20px;
+        text-align: center;
+        margin-bottom: 40px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 40px;
+        color: var(--main-title-color);
+    }
+
+    .price-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .price-horizontal-line {
+        border-bottom: 2px solid #e0e6ed;
+        width: 200px;
+    }
+
+    .price-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .price-item:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    .price-item-image {
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    .price-item-title-wrapper {
+        margin: 10px 0;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .price-item-title {
+        padding: 10px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 32px;
+        color: var(--main-title-color);
+    }
+
+    .price-item-text {
+        padding: 15px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px;
+        color: var(--main-text-color);
+    }
+
+    .price-item-title-price {
+        margin-top: 10px;
+        padding: 10px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 32px;
+        color: var(--main-title-color);
+    }
+
+    .price-item-link {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 15px 20px;
+        border-radius: 70px;
+        border: none;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        color: var(--extra-text-color);
+        background-color: var(--icon-color);
+        cursor: pointer;
+    }
+
+    .price-item-link:hover,
+    .price-item-link:focus {
+        background-color: var(--button-color);
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
     /* CONTACT FORM */
 
     .contacts {
@@ -904,6 +1005,117 @@ a {
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     }
 
+      /* PRICE */
+
+    .price {
+        margin-top: 50px;
+    }
+
+    .price-title {
+        padding-top: 20px;
+        text-align: center;
+        margin-bottom: 40px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 40px;
+        color: var(--main-title-color);
+    }
+
+    .price-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .price-vertical-line{
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        display: none;
+    }
+    .price-horizontal-line {
+        border-bottom: 2px solid #e0e6ed;
+        width: 200px;
+    }
+
+    .price-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .price-item:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    .price-item-image {
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    .price-item-title-wrapper {
+        margin: 10px 0;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .price-item-title {
+        padding: 10px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 32px;
+        color: var(--main-title-color);
+    }
+
+    .price-item-text {
+        padding: 15px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px;
+        color: var(--main-text-color);
+    }
+
+    .price-item-title-price {
+        margin-top: 10px;
+        padding: 10px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 32px;
+        color: var(--main-title-color);
+    }
+
+    .price-item-link {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 15px 20px;
+        border-radius: 70px;
+        border: none;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        color: var(--extra-text-color);
+        background-color: var(--icon-color);
+        cursor: pointer;
+    }
+
+    .price-item-link:hover,
+    .price-item-link:focus {
+        background-color: var(--button-color);
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+
     /* CONTACT FORM */
 
     .contacts {
@@ -1352,6 +1564,109 @@ a {
         line-height: 30px;
         color: var(--main-text-color);
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    }
+
+      /* PRICE */
+
+    .price {
+        margin-top: 50px;
+        justify-content: space-between;
+    }
+
+    .price-title {
+        padding-top: 20px;
+        text-align: center;
+        margin-bottom: 40px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 40px;
+        color: var(--main-title-color);
+    }
+
+    .price-list {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .price-vertical-line {
+        border-left: 2px solid #e0e6ed;
+        height: 100%;
+    }
+
+    .price-horizontal-line {
+        border-bottom: 2px solid #e0e6ed;
+        width: 200px;
+    }
+
+    .price-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .price-item-image {
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    .price-item-title-wrapper {
+        margin: 10px 0;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .price-item-title {
+        padding: 10px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 32px;
+        color: var(--main-title-color);
+    }
+
+    .price-item-text {
+        padding: 15px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px;
+        color: var(--main-text-color);
+    }
+
+    .price-item-title-price {
+        margin-top: 10px;
+        padding: 10px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 32px;
+        color: var(--main-title-color);
+    }
+
+    .price-item-link {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 15px 20px;
+        border-radius: 70px;
+        border: none;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        color: var(--extra-text-color);
+        background-color: var(--icon-color);
+        cursor: pointer;
+    }
+
+    .price-item-link:hover,
+    .price-item-link:focus {
+        background-color: var(--button-color);
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
 
     /* CONTACT FORM */
