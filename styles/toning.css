@@ -402,6 +402,41 @@ a {
         text-decoration: underline;
     }
 
+    /* SWIPER SLIDER */
+
+    .swiper-gallery .swiper {
+        margin-top: 20px;
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+
+      .swiper-gallery .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        max-width: 395px;
+        min-width: 320px;
+        height: 274px;
+      }
+
+      .swiper-gallery .swiper-slide img {
+        border-radius: 5px;
+        display: block;
+        width: 100%;
+        max-width: 395px;
+        min-width: 320px;
+        height: 274px;
+      }
+
+      .swiper-gallery .swiper-button-prev{
+        margin-left: 10px;
+        padding: 15px;
+      }
+      .swiper-gallery .swiper-button-next{
+        margin-right: 10px;
+        padding: 15px;
+      }
+
 
     /* CONTACT FORM */
 
@@ -893,6 +928,37 @@ a {
         text-decoration: underline;
     }
 
+    /* SWIPER SLIDER */
+       .swiper-gallery .swiper {
+        margin-top: 50px;
+        width: 768px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+
+      .swiper-gallery .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 560px;
+        height: 389px;
+      }
+
+      .swiper-gallery .swiper-slide img {
+        border-radius: 20px;
+        display: block;
+        width: 100%;
+      }
+
+      .swiper-gallery .swiper-button-prev{
+        margin-left: 50px;
+        padding: 15px;
+      }
+      .swiper-gallery .swiper-button-next{
+        margin-right: 50px;
+        padding: 15px;
+      }
+
+
     /* CONTACT FORM */
 
     .contacts {
@@ -1344,7 +1410,38 @@ a {
     .service-text-accent{
         text-decoration: underline;
     }
-   
+
+    
+   /* SWIPER SLIDER */
+
+    .swiper-gallery .swiper {
+        margin-top: 50px;
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+
+      .swiper-gallery .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 700px;
+        height: 486px;
+      }
+
+      .swiper-gallery .swiper-slide img {
+        border-radius: 20px;
+        display: block;
+        width: 100%;
+      }
+
+      .swiper-gallery .swiper-button-prev{
+        margin-left: 50px;
+        padding: 15px;
+      }
+      .swiper-gallery .swiper-button-next{
+        margin-right: 50px;
+        padding: 15px;
+      }
 
     /* CONTACT FORM */
 
